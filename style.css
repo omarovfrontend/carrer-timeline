@@ -203,3 +203,73 @@ ul li {
 .footer-menu__link:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 550px) {
+    .header__title {
+        font-size: 28px;
+    }
+
+    .career-item {
+        justify-content: center;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .career-item i,
+    .career-list::before,
+    .career-item::after {
+        display: none;
+    }
+
+    .career-item__left {
+        width: 70%;
+    }
+    .career-item__right {
+        width: 30%;
+    }
+
+    .career-item:nth-child(even) {
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__col {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 440px) {
+    .contact-item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 390px) {
+    .contacts {
+        margin: 10px 0;
+    }
+    .contact-list {
+        flex-direction: column;
+    }
+
+    .contact-item:not(:nth-child(4)) {
+        margin-bottom: 10px;
+    }
+
+    .content__title,
+    .footer__title {
+        text-align: center;
+    }
+}
