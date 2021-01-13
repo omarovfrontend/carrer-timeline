@@ -246,6 +246,22 @@ ul li {
     .header {
         flex-direction: column;
     }
+
+    .career-item__name {
+        font-size: 12px;
+    }
+
+    .career-item__company {
+        font-size: 10px;
+    }
+
+    .career-item__address {
+        font-size: 10px;
+    }
+
+    .career-item__date {
+        font-size: 9px;
+    }
 }
 
 @media (max-width: 440px) {
