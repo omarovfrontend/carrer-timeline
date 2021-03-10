@@ -1,3 +1,3 @@
 # carrer-timeline
 
-Demo - https://omarov-frontend.github.io/carrer-timeline/
+Demo - https://omarovfrontend.github.io/carrer-timeline/
